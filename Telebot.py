@@ -8,7 +8,7 @@ def phone(teleph):
     if teleph.startswith(('8' or '7' or '+7' or '+8')):
         return len(teleph) in range(10,13)
 
-token='1182113965:AAFE2r7jSWNqW1XP7O7WYMP5ipRQJC6v7Zw'
+token=''
 bot=telebot.TeleBot(token)
 'Задайте параметры или воспользуйтесь сохранёнными'
 
