@@ -9,7 +9,7 @@ def phone(teleph):
     if teleph.startswith(('8' or '7' or '+7' or '+8')):
         return len(teleph) in range(10,13)
 
-bot = Bot(token='1182113965:AAFE2r7jSWNqW1XP7O7WYMP5ipRQJC6v7Zw')
+bot = Bot(token='')
 dp = Dispatcher(bot)
 
 #меню выбора района
